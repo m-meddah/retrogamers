@@ -1,5 +1,5 @@
-# projet-8-RetroGamers
+# RetroGamers
 
-Run server : =>
+Here is the folder of the Retrogamers' API.
 
-npm run dev
+Run server : => npm run dev

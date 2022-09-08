@@ -1,0 +1,72 @@
+.footer {
+  display: flex;
+  flex: 1;
+  border-top: 1px solid #eaeaea;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  background-image: url("../public/images/wallpaperbetter.jpg");
+  background-position: bottom right;
+  background-size: 100% 230%;
+
+}
+
+.icons {
+  background-color: #ffffff;
+  background-image: url("../public/images/wallpaperbetter.jpg");
+  color: blue;
+  margin-top: 0;
+}
+
+.icons:hover
+{
+text-decoration: underline;
+color: #ffffff;
+}
+
+.contactteamfooter{
+  font-weight: bolder;
+}
+
+.iconssocial{
+  color: rgb(224, 220, 228);
+  background-image: url("../public/images/wallpaperbetter.jpg");
+}
+
+.iconssocialyoutube{
+  color: rgb(255, 0, 0);
+  background-image: url("../public/images/wallpaperbetter.jpg");
+}
+
+.iconssociallinkedin{
+  color : #0A66C2;
+  background-image: url("../public/images/wallpaperbetter.jpg");
+}
+
+.iconssocialtwitter{
+  color:#1DA1F2;
+  background-image: url("../public/images/wallpaperbetter.jpg");
+
+}
+
+.iconssocialfb{
+  color: blue;
+  
+  background-image: url("../public/images/wallpaperbetter.jpg");
+}
+
+.copyright{
+  color :blue
+  
+}
+
+@media (max-width : 600px) {
+
+  .footer{
+    background-position: bottom right;
+    background-size: 100% 100%;
+  }
+
+
+}

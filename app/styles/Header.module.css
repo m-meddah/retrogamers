@@ -1,0 +1,27 @@
+
+.header {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  background-image: url('../public/images/retro-games-wallpapers.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .block {
+    flex-direction: column;
+    align-items: center;
+  }
+
+}

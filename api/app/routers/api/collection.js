@@ -82,6 +82,8 @@ router
      * @summary Remove a system into collection
      * @tags Collection
      * @param {number} id.path.required - Collection identifier
+     * @param {number} request.body.required - system identifier
+     * @param {number} request.body.required - Collection identifier json
      * @return {Collection} 200 - success response - application/json
      * @return {ApiError} 400 - Bad request response - application/json
      * @return {ApiError} 404 - System not found- application/json

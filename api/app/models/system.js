@@ -19,7 +19,7 @@ module.exports = {
      * @returns - All systems in our DB
      */
     async findAll() {
-        const result = await client.query('SELECT * FROM "system";');
+        const result = await client.query('SELECT * FROM "system" ORDER BY "name" ASC;');
         return result.rows;
     },
 

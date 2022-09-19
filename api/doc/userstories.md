@@ -1,6 +1,6 @@
 # UserStories
 
-| En tant que: | Je veux pouvoir: | Dans le but de: |
+| En tant que:                  | Je veux pouvoir:                                   | Dans le but de: 
 |---                            |---                                                 |---
 |visiteur                       |consulter la liste des systèmes                     |
 |visiteur                       |consulter la liste des jeux                         |

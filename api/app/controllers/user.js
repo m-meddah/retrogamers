@@ -144,14 +144,6 @@ module.exports = {
 
         req.session.user = foundUser
 
-        // const token = jwt.create(foundUser);
-        // res.header('Authorization', 'Bearer ' + token);
-        // const secret = process.env.JWT_SECRET;
-
-        // if (!token) {
-        //     throw new ApiError('Token required', { statusCode: 401 })
-        // }
-
         return res.json(req.session.user)
     },
 

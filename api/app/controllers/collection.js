@@ -145,7 +145,7 @@ module.exports = {
 
         if (uniqueSystem) {
             if (uniqueSystem.system_id === req.body.system_id || uniqueSystem.collection_id === req.body.collection_id) {
-                throw new ApiError('This system already exist in that collection', { statusCode: 404 })
+                throw new ApiError('This system already exists in that collection', { statusCode: 404 })
             }
         }
 
@@ -171,7 +171,7 @@ module.exports = {
 
         if (uniqueGame) {
             if (uniqueGame.game_id === req.body.game_id || uniqueGame.collection_id === req.body.collection_id) {
-                throw new ApiError('This game already exist in that collection', { statusCode: 404 })
+                throw new ApiError('This game already exists in that collection', { statusCode: 404 })
             }
         }
 

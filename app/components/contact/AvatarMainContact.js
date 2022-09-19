@@ -45,7 +45,7 @@ export default function AvatarMainContact() {
                             Allan
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            Lead developeur front
+                            Lead dev front
                         </Typography>
 
                     </CardContent>
@@ -85,6 +85,7 @@ export default function AvatarMainContact() {
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
                             Product Owner
+                            Lead dev back
                         </Typography>
 
                     </CardContent>

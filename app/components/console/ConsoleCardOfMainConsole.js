@@ -120,7 +120,7 @@ export default function ConsoleCardOfMainConsole({
                     }}
                     component="img"
                     height="140"
-                    src={consoleInfo.media}
+                    src={consoleInfo.big_media}
                     alt="console"
                 />
 
